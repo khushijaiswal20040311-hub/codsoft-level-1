@@ -3,48 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>calculator</title>
     <link rel="stylesheet"href="style.css">
 </head>
 <body>
-<header>
-<h1>Khushi Tech</h1>
-<nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
-</nav>
-</header>
-<img src="image.jpg" class="hero-img">
-<section class="hero">
-    <h2>Learn Web Development</h2>
-    <p>Build modern websites with HTML and CSS</p>
-    <button>Get Started</button>
-</section>
-
-<section class="services">
-    <h2>Our Services</h2>
-
-<div class="card">
-        <h3>Web Design</h3>
-        <p>Creative website design.</p>
-</div>
-
-<div class="card">
-    <h3>Development</h3>
-    <p>Clean coding Practices.</p>
-</div>
-
-<div class="card">
-    <h3>Support</h3>
-    <p>24/7 support for projects.</p>
-</div>
-</section>
-
-<footer>
-    <p>@ 2026 Khushi Jaiswal</p>
-</footer>
     
 </body>
+<div class="calculator">
+<input type="text" id="display">
+<div class="buttons">
+<button onclick="append('7')">7</button>
+<button onclick="append('8')">8</button>
+<button onclick="append('9')">9</button>
+<button onclick="append('/')">/</button>
+
+<button onclick="append('4')">4</button>
+<button onclick="append('5')">5</button>
+<button onclick="append('6')">6</button>
+<button onclick="append('*')">*</button>
+
+<button onclick="append('1')">1</button>
+<button onclick="append('2')">2</button>
+<button onclick="append('3')">3</button>
+<button onclick="append('-')">-</button>
+
+<button onclick="append('0')">0</button>
+<button onclick="clearDisplay()">C</button>
+<button onclick="calculate()">=</button>
+<button onclick="append('+')">+</button>
+</div>
+<script src="script.js"></script>
+</div>
 </html>
