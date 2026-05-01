@@ -9,6 +9,14 @@ flies:
 Description:
 A personal portfolio website created using HTML and CSS.
 
+## Landing page 
+files:
+  index.html
+  style.css
+  image.jpg
+Description:
+landing page using html,css.
+
 ## Calculator Project
 files:
   Calculator.py
